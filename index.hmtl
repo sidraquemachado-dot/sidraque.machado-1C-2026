@@ -3,51 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Patas & Carinho - Blog completo sobre cuidados, alimentação, saúde e bem-estar dos animais de estimação.">
+    <title>Pet Mania | Pet Shop</title>
 
-    <title>Patas & Carinho | Pet Shop</title>
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Fonte do Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap"
         rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- =========================
-         CABEÇALHO
+         MENU
     ========================== -->
-    <header class="header">
 
-        <div class="container nav-container">
+    <header>
 
-            <a href="#inicio" class="logo">
-                <span class="logo-paw">🐾</span>
-                <span>Patas <strong>&</strong> Carinho</span>
-            </a>
-
-            <nav class="nav">
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#cuidados">Cuidados</a>
-                <a href="#servicos">Serviços</a>
-                <a href="#contato">Contato</a>
-            </nav>
-
-            <a href="#servicos" class="btn btn-small">
-                Conheça nosso Pet Shop
-            </a>
-
+        <div class="logo">
+            🐾 Pet<span>Mania</span>
         </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#cuidados">Cuidados</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <a href="#contato" class="menu-button">
+            Fale conosco
+        </a>
 
     </header>
 
@@ -55,77 +47,53 @@
     <main>
 
         <!-- =========================
-             HERO
+             INÍCIO
         ========================== -->
-        <section class="hero" id="inicio">
 
-            <div class="container hero-content">
+        <section class="inicio" id="inicio">
 
-                <div class="hero-text">
+            <div class="inicio-texto">
 
-                    <span class="tag">
-                        🐶 Amor que vira cuidado
-                    </span>
+                <div class="etiqueta">
+                    🐶 Tudo para seu melhor amigo
+                </div>
 
-                    <h1>
-                        Tudo para deixar seu
-                        <span>melhor amigo</span>
-                        feliz!
-                    </h1>
+                <h1>
+                    Seu pet merece
+                    <span>todo o amor!</span>
+                </h1>
 
-                    <p>
-                        Bem-vindo ao <strong>Patas & Carinho</strong>, um espaço
-                        criado para quem ama animais e quer oferecer uma vida
-                        mais saudável, divertida e cheia de carinho para seus
-                        pets.
-                    </p>
+                <p>
+                    Encontre dicas, produtos e cuidados especiais
+                    para deixar seu cachorro ou gato ainda mais
+                    feliz e saudável.
+                </p>
 
-                    <div class="hero-buttons">
-                        <a href="#cuidados" class="btn">
-                            Descobrir dicas 🐾
-                        </a>
+                <div class="botoes">
 
-                        <a href="#sobre" class="btn btn-outline">
-                            Conheça o blog
-                        </a>
-                    </div>
+                    <a href="#produtos" class="botao-principal">
+                        Ver produtos 🛒
+                    </a>
 
-                    <div class="hero-info">
-
-                        <div>
-                            <strong>100%</strong>
-                            <span>Amor pelos pets</span>
-                        </div>
-
-                        <div>
-                            <strong>+50</strong>
-                            <span>Dicas especiais</span>
-                        </div>
-
-                        <div>
-                            <strong>🐾</strong>
-                            <span>Feito com carinho</span>
-                        </div>
-
-                    </div>
+                    <a href="#sobre" class="botao-secundario">
+                        Conheça a PetMania
+                    </a>
 
                 </div>
 
+            </div>
 
-                <!-- IMAGEM 1 -->
-                <div class="hero-image image-slot">
 
-                    <img src="images/pet-hero.jpg"
-                        alt="Cachorro feliz representando o Pet Shop">
+            <!-- IMAGEM 1 -->
 
-                    <div class="image-badge">
-                        <span>❤️</span>
-                        <div>
-                            <strong>Pet feliz</strong>
-                            <small>é pet bem cuidado!</small>
-                        </div>
-                    </div>
+            <div class="imagem imagem-principal">
 
+                <img src="images/pet1.jpg"
+                    alt="Animal de estimação">
+
+                <div class="adesivo">
+                    ❤️
+                    <strong>Amor em cada detalhe!</strong>
                 </div>
 
             </div>
@@ -136,84 +104,78 @@
         <!-- =========================
              SOBRE
         ========================== -->
-        <section class="about section" id="sobre">
 
-            <div class="container">
+        <section class="sobre" id="sobre">
 
-                <div class="section-title">
+            <div class="titulo">
 
-                    <span class="tag">🐾 Quem somos</span>
+                <small>🐾 SOBRE A PETMANIA</small>
 
-                    <h2>
-                        Um cantinho feito para
-                        <span>quem ama animais</span>
-                    </h2>
+                <h2>
+                    Um lugar feito para
+                    <span>amar os animais</span>
+                </h2>
+
+                <p>
+                    A PetMania é um espaço criado para todos que
+                    consideram seus animais parte da família.
+                </p>
+
+            </div>
+
+
+            <div class="sobre-grid">
+
+                <div class="sobre-card">
+
+                    <div class="icone">
+                        ❤️
+                    </div>
+
+                    <h3>
+                        Muito carinho
+                    </h3>
 
                     <p>
-                        O Patas & Carinho nasceu para compartilhar informações
-                        simples e úteis sobre o universo dos animais de
-                        estimação.
+                        Tratamos cada pet com atenção, respeito
+                        e muito carinho.
                     </p>
 
                 </div>
 
 
-                <div class="about-grid">
+                <div class="sobre-card">
 
-                    <div class="about-card">
-
-                        <div class="icon">❤️</div>
-
-                        <h3>Amor</h3>
-
-                        <p>
-                            Acreditamos que todo pet merece receber atenção,
-                            carinho e muito amor todos os dias.
-                        </p>
-
+                    <div class="icone">
+                        ⭐
                     </div>
 
+                    <h3>
+                        Qualidade
+                    </h3>
 
-                    <div class="about-card">
+                    <p>
+                        Buscamos oferecer produtos de qualidade
+                        para seu melhor amigo.
+                    </p>
 
-                        <div class="icon">🥕</div>
+                </div>
 
-                        <h3>Alimentação</h3>
 
-                        <p>
-                            Uma alimentação equilibrada é essencial para manter
-                            seu companheiro saudável e cheio de energia.
-                        </p>
+                <div class="sobre-card">
 
+                    <div class="icone">
+                        🐕
                     </div>
 
+                    <h3>
+                        Bem-estar
+                    </h3>
 
-                    <div class="about-card">
-
-                        <div class="icon">🏃</div>
-
-                        <h3>Diversão</h3>
-
-                        <p>
-                            Brincadeiras e atividades ajudam a manter os pets
-                            ativos, felizes e estimulados.
-                        </p>
-
-                    </div>
-
-
-                    <div class="about-card">
-
-                        <div class="icon">🩺</div>
-
-                        <h3>Saúde</h3>
-
-                        <p>
-                            Cuidados preventivos e acompanhamento veterinário
-                            ajudam a garantir uma vida longa e saudável.
-                        </p>
-
-                    </div>
+                    <p>
+                        Nosso objetivo é ajudar os animais a terem
+                        uma vida mais feliz e saudável.
+                    </p>
 
                 </div>
 
@@ -223,37 +185,115 @@
 
 
         <!-- =========================
-             DESTAQUE
+             PRODUTOS
         ========================== -->
-        <section class="highlight">
 
-            <div class="container highlight-content">
+        <section class="produtos" id="produtos">
 
-                <div>
+            <div class="titulo">
 
-                    <span class="tag light">
-                        🐕 Dica do dia
-                    </span>
+                <small>🛒 PET SHOP</small>
 
-                    <h2>
-                        Seu pet também precisa
-                        de uma rotina saudável!
-                    </h2>
+                <h2>
+                    Produtos para o seu
+                    <span>melhor amigo</span>
+                </h2>
+
+                <p>
+                    Confira algumas categorias que não podem faltar
+                    na rotina do seu pet.
+                </p>
+
+            </div>
+
+
+            <div class="produtos-grid">
+
+
+                <div class="produto">
+
+                    <div class="produto-icone">
+                        🥩
+                    </div>
+
+                    <h3>
+                        Alimentação
+                    </h3>
 
                     <p>
-                        Separe alguns minutos do dia para brincar, passear,
-                        oferecer água fresca e dar bastante carinho.
-                        Pequenas atitudes fazem uma grande diferença.
+                        Rações e petiscos para manter seu pet
+                        bem alimentado.
                     </p>
 
-                    <a href="#cuidados" class="btn btn-white">
-                        Ver mais dicas
+                    <a href="#">
+                        Ver produtos →
                     </a>
 
                 </div>
 
-                <div class="highlight-paw">
-                    🐾
+
+                <div class="produto">
+
+                    <div class="produto-icone">
+                        🧸
+                    </div>
+
+                    <h3>
+                        Brinquedos
+                    </h3>
+
+                    <p>
+                        Brinquedos divertidos para estimular
+                        seu animal.
+                    </p>
+
+                    <a href="#">
+                        Ver produtos →
+                    </a>
+
+                </div>
+
+
+                <div class="produto">
+
+                    <div class="produto-icone">
+                        🛏️
+                    </div>
+
+                    <h3>
+                        Camas
+                    </h3>
+
+                    <p>
+                        Caminhas confortáveis para seu pet
+                        descansar.
+                    </p>
+
+                    <a href="#">
+                        Ver produtos →
+                    </a>
+
+                </div>
+
+
+                <div class="produto">
+
+                    <div class="produto-icone">
+                        🦮
+                    </div>
+
+                    <h3>
+                        Acessórios
+                    </h3>
+
+                    <p>
+                        Coleiras, guias, potes e muito mais.
+                    </p>
+
+                    <a href="#">
+                        Ver produtos →
+                    </a>
+
                 </div>
 
             </div>
@@ -262,143 +302,59 @@
 
 
         <!-- =========================
-             CUIDADOS
+             DESTAQUE COM IMAGEM 2
         ========================== -->
-        <section class="care section" id="cuidados">
 
-            <div class="container">
+        <section class="destaque">
 
-                <div class="section-title">
+            <!-- IMAGEM 2 -->
 
-                    <span class="tag">🐶 Guia do pet</span>
+            <div class="imagem destaque-imagem">
 
-                    <h2>
-                        Cuidados essenciais para
-                        <span>seu companheiro</span>
-                    </h2>
+                <img src="images/pet2.jpg"
+                    alt="Cachorro feliz">
 
-                    <p>
-                        Confira algumas dicas importantes para proporcionar
-                        mais qualidade de vida ao seu animal.
-                    </p>
+            </div>
 
+
+            <div class="destaque-texto">
+
+                <div class="etiqueta">
+                    🐶 DICA PARA CACHORROS
                 </div>
 
+                <h2>
+                    Uma rotina saudável
+                    deixa seu pet mais feliz
+                </h2>
 
-                <div class="care-grid">
-
-                    <!-- IMAGEM 2 -->
-                    <article class="blog-card featured">
-
-                        <div class="card-image image-slot">
-
-                            <img src="images/cachorro.jpg"
-                                alt="Cachorro recebendo cuidados">
-
-                            <span class="category">
-                                🐶 Cachorros
-                            </span>
-
-                        </div>
-
-                        <div class="card-content">
-
-                            <span class="date">
-                                10 de Agosto de 2026
-                            </span>
-
-                            <h3>
-                                5 cuidados básicos que todo cachorro precisa
-                            </h3>
-
-                            <p>
-                                Descubra hábitos simples que ajudam a manter
-                                seu cachorro saudável, ativo e feliz durante
-                                todas as fases da vida.
-                            </p>
-
-                            <a href="#" class="read-more">
-                                Ler artigo →
-                            </a>
-
-                        </div>
-
-                    </article>
+                <p>
+                    Passeios, brincadeiras, alimentação adequada
+                    e consultas veterinárias são alguns dos cuidados
+                    importantes para o bem-estar dos cachorros.
+                </p>
 
 
-                    <div class="care-side">
+                <div class="lista">
 
-                        <article class="mini-card">
+                    <div>
+                        <span>✓</span>
+                        Passeie com seu cachorro.
+                    </div>
 
-                            <div class="mini-icon">
-                                💧
-                            </div>
+                    <div>
+                        <span>✓</span>
+                        Deixe água fresca disponível.
+                    </div>
 
-                            <div>
-                                <h3>Água sempre disponível</h3>
+                    <div>
+                        <span>✓</span>
+                        Escolha uma alimentação adequada.
+                    </div>
 
-                                <p>
-                                    Mantenha água limpa e fresca ao alcance
-                                    do seu pet durante todo o dia.
-                                </p>
-                            </div>
-
-                        </article>
-
-
-                        <article class="mini-card">
-
-                            <div class="mini-icon">
-                                🦴
-                            </div>
-
-                            <div>
-                                <h3>Alimentação adequada</h3>
-
-                                <p>
-                                    Escolha alimentos adequados à idade,
-                                    tamanho e necessidades do animal.
-                                </p>
-                            </div>
-
-                        </article>
-
-
-                        <article class="mini-card">
-
-                            <div class="mini-icon">
-                                🧼
-                            </div>
-
-                            <div>
-                                <h3>Higiene</h3>
-
-                                <p>
-                                    Banhos, escovação e cuidados de higiene
-                                    ajudam a prevenir diversos problemas.
-                                </p>
-                            </div>
-
-                        </article>
-
-
-                        <article class="mini-card">
-
-                            <div class="mini-icon">
-                                🎾
-                            </div>
-
-                            <div>
-                                <h3>Brincadeiras</h3>
-
-                                <p>
-                                    Reserve um tempo para brincar e estimular
-                                    fisicamente seu melhor amigo.
-                                </p>
-                            </div>
-
-                        </article>
-
+                    <div>
+                        <span>✓</span>
+                        Separe um tempo para brincar.
                     </div>
 
                 </div>
@@ -411,70 +367,42 @@
         <!-- =========================
              GATOS
         ========================== -->
-        <section class="cats section">
 
-            <div class="container cats-grid">
+        <section class="gatos">
 
-                <!-- IMAGEM 3 -->
-                <div class="cats-image image-slot">
+            <div class="gatos-texto">
 
-                    <img src="images/gato.jpg"
-                        alt="Gato recebendo carinho">
-
-                    <div class="floating-card">
-                        🐱 <strong>Ronronar é felicidade!</strong>
-                    </div>
-
+                <div class="etiqueta">
+                    🐱 PARA OS GATEIROS
                 </div>
 
+                <h2>
+                    Seu gato também precisa
+                    de <span>carinho e atenção</span>
+                </h2>
 
-                <div class="cats-content">
+                <p>
+                    Apesar de independentes, os gatos precisam de
+                    cuidados, brincadeiras e um ambiente seguro
+                    para viverem bem.
+                </p>
 
-                    <span class="tag">
-                        🐱 Para os gateiros
-                    </span>
+                <a href="#cuidados" class="botao-principal">
+                    Ver cuidados
+                </a>
 
-                    <h2>
-                        Seu gato também merece
-                        <span>todo o carinho do mundo</span>
-                    </h2>
-
-                    <p>
-                        Gatos são animais independentes, mas isso não significa
-                        que não precisem de atenção. Um ambiente seguro,
-                        brinquedos, alimentação adequada e muito carinho são
-                        essenciais.
-                    </p>
+            </div>
 
 
-                    <ul class="check-list">
+            <!-- IMAGEM 3 -->
 
-                        <li>
-                            <span>✓</span>
-                            Ofereça brinquedos e arranhadores.
-                        </li>
+            <div class="imagem gato-imagem">
 
-                        <li>
-                            <span>✓</span>
-                            Mantenha a caixa de areia limpa.
-                        </li>
+                <img src="images/pet3.jpg"
+                    alt="Gato de estimação">
 
-                        <li>
-                            <span>✓</span>
-                            Garanta água fresca diariamente.
-                        </li>
-
-                        <li>
-                            <span>✓</span>
-                            Faça consultas veterinárias regularmente.
-                        </li>
-
-                    </ul>
-
-                    <a href="#contato" class="btn">
-                        Quero saber mais 🐾
-                    </a>
-
+                <div class="gato-frase">
+                    🐱 Ronronar é felicidade!
                 </div>
 
             </div>
@@ -483,100 +411,97 @@
 
 
         <!-- =========================
-             SERVIÇOS
+             CUIDADOS
         ========================== -->
-        <section class="services section" id="servicos">
 
-            <div class="container">
+        <section class="cuidados" id="cuidados">
 
-                <div class="section-title">
+            <div class="titulo">
 
-                    <span class="tag">🛍️ Nosso Pet Shop</span>
+                <small>💚 CUIDADOS</small>
 
-                    <h2>
-                        Tudo o que seu pet
-                        <span>precisa em um só lugar</span>
-                    </h2>
+                <h2>
+                    Como cuidar melhor do
+                    <span>seu pet?</span>
+                </h2>
 
-                    <p>
-                        Conheça alguns dos principais serviços e produtos
-                        encontrados em um Pet Shop completo.
-                    </p>
+                <p>
+                    Algumas atitudes simples podem fazer uma
+                    grande diferença na vida do seu animal.
+                </p>
+
+            </div>
+
+
+            <div class="cuidados-grid">
+
+                <div class="cuidado">
+
+                    <span>01</span>
+
+                    <div>
+                        <h3>
+                            Alimentação
+                        </h3>
+
+                        <p>
+                            Ofereça uma alimentação adequada
+                            para a idade e tamanho do seu pet.
+                        </p>
+                    </div>
 
                 </div>
 
 
-                <div class="services-grid">
+                <div class="cuidado">
 
-                    <div class="service-card">
+                    <span>02</span>
 
-                        <div class="service-icon">
-                            ✂️
-                        </div>
-
-                        <h3>Banho & Tosa</h3>
+                    <div>
+                        <h3>
+                            Higiene
+                        </h3>
 
                         <p>
-                            Cuidados de higiene para deixar seu pet limpo,
-                            cheiroso e confortável.
+                            Mantenha seu animal limpo e cuide
+                            regularmente da higiene.
                         </p>
-
-                        <a href="#">Saiba mais →</a>
-
                     </div>
 
+                </div>
 
-                    <div class="service-card">
 
-                        <div class="service-icon">
-                            🥩
-                        </div>
+                <div class="cuidado">
 
-                        <h3>Alimentação</h3>
+                    <span>03</span>
+
+                    <div>
+                        <h3>
+                            Exercícios
+                        </h3>
 
                         <p>
-                            Rações, petiscos e opções para diferentes fases
-                            e necessidades dos animais.
+                            Brincadeiras e passeios ajudam
+                            a manter o animal ativo.
                         </p>
-
-                        <a href="#">Saiba mais →</a>
-
                     </div>
 
-
-                    <div class="service-card">
-
-                        <div class="service-icon">
-                            🧸
-                        </div>
-
-                        <h3>Brinquedos</h3>
-
-                        <p>
-                            Opções divertidas para estimular seu pet e deixar
-                            os momentos de brincadeira ainda melhores.
-                        </p>
-
-                        <a href="#">Saiba mais →</a>
-
-                    </div>
+                </div>
 
 
-                    <div class="service-card">
+                <div class="cuidado">
 
-                        <div class="service-icon">
-                            🏠
-                        </div>
+                    <span>04</span>
 
-                        <h3>Acessórios</h3>
+                    <div>
+                        <h3>
+                            Veterinário
+                        </h3>
 
                         <p>
-                            Caminhas, coleiras, potes e diversos acessórios
-                            para deixar seu pet confortável.
+                            Consultas regulares ajudam a
+                            prevenir problemas de saúde.
                         </p>
-
-                        <a href="#">Saiba mais →</a>
-
                     </div>
 
                 </div>
@@ -587,64 +512,40 @@
 
 
         <!-- =========================
-             IMAGEM 4 / CUIDADOS
+             ÚLTIMA IMAGEM
         ========================== -->
-        <section class="tips section">
 
-            <div class="container tips-box">
+        <section class="momento">
 
-                <!-- IMAGEM 4 -->
-                <div class="tips-image image-slot">
+            <!-- IMAGEM 4 -->
 
-                    <img src="images/cuidados.jpg"
-                        alt="Cuidados e acessórios para animais">
+            <div class="imagem momento-imagem">
 
+                <img src="images/pet4.jpg"
+                    alt="Animal recebendo carinho">
+
+            </div>
+
+
+            <div class="momento-texto">
+
+                <div class="etiqueta">
+                    ❤️ MOMENTO PET
                 </div>
 
+                <h2>
+                    Mais que um animal,
+                    <span>parte da família.</span>
+                </h2>
 
-                <div class="tips-content">
+                <p>
+                    Ter um pet é ganhar um companheiro para os
+                    melhores e mais simples momentos da vida.
+                </p>
 
-                    <span class="tag">
-                        ⭐ Conteúdo especial
-                    </span>
-
-                    <h2>
-                        Pequenos cuidados,
-                        <span>grandes momentos</span>
-                    </h2>
-
-                    <p>
-                        Ter um animal de estimação é uma experiência cheia de
-                        momentos especiais. Além de alimentação e higiene,
-                        nossos pets precisam de atenção, exercícios, segurança
-                        e muito carinho.
-                    </p>
-
-                    <div class="tip-numbers">
-
-                        <div>
-                            <strong>01</strong>
-                            <p>
-                                Mantenha uma rotina de cuidados.
-                            </p>
-                        </div>
-
-                        <div>
-                            <strong>02</strong>
-                            <p>
-                                Reserve tempo para brincar.
-                            </p>
-                        </div>
-
-                        <div>
-                            <strong>03</strong>
-                            <p>
-                                Dê muito amor e atenção.
-                            </p>
-                        </div>
-
-                    </div>
-
+                <div class="frase">
+                    "O amor de um animal transforma
+                    qualquer casa em um lar."
                 </div>
 
             </div>
@@ -653,36 +554,70 @@
 
 
         <!-- =========================
-             CTA
+             CONTATO
         ========================== -->
-        <section class="cta" id="contato">
 
-            <div class="container cta-content">
+        <section class="contato" id="contato">
 
-                <div class="cta-paws">
-                    🐾
-                </div>
+            <div class="contato-conteudo">
 
                 <div>
 
-                    <span class="tag light">
-                        ❤️ Feito para você
-                    </span>
+                    <small>
+                        🐾 FALE COM A PETMANIA
+                    </small>
 
                     <h2>
-                        Porque seu pet não é
-                        apenas um animal...
+                        Vamos cuidar juntos
+                        do seu melhor amigo?
                     </h2>
 
                     <p>
-                        Ele é parte da família!
+                        Entre em contato para conhecer nossos
+                        produtos e serviços.
                     </p>
 
                 </div>
 
-                <a href="mailto:contato@patasecarinho.com" class="btn btn-white">
-                    Entre em contato
-                </a>
+
+                <div class="contato-info">
+
+                    <div>
+                        📍
+                        <strong>
+                            Endereço
+                        </strong>
+
+                        <span>
+                            Rua dos Pets, 100
+                        </span>
+                    </div>
+
+
+                    <div>
+                        📞
+                        <strong>
+                            Telefone
+                        </strong>
+
+                        <span>
+                            (11) 99999-9999
+                        </span>
+                    </div>
+
+
+                    <div>
+                        ✉️
+                        <strong>
+                            E-mail
+                        </strong>
+
+                        <span>
+                            contato@petmania.com
+                        </span>
+                    </div>
+
+                </div>
 
             </div>
 
@@ -694,58 +629,69 @@
     <!-- =========================
          RODAPÉ
     ========================== -->
-    <footer class="footer">
 
-        <div class="container footer-grid">
+    <footer>
 
-            <div class="footer-brand">
+        <div class="footer-conteudo">
 
-                <a href="#inicio" class="logo">
-                    <span class="logo-paw">🐾</span>
-                    <span>Patas <strong>&</strong> Carinho</span>
-                </a>
+            <div>
+
+                <div class="logo">
+                    🐾 Pet<span>Mania</span>
+                </div>
 
                 <p>
-                    Um blog criado para compartilhar informação, carinho e
-                    cuidado com nossos melhores amigos.
+                    Cuidando de quem faz parte
+                    da nossa família.
                 </p>
 
             </div>
 
 
-            <div class="footer-links">
+            <div>
 
-                <h3>Links rápidos</h3>
+                <h3>
+                    Navegação
+                </h3>
 
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre nós</a>
-                <a href="#cuidados">Cuidados</a>
-                <a href="#servicos">Serviços</a>
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#sobre">
+                    Sobre
+                </a>
+
+                <a href="#produtos">
+                    Produtos
+                </a>
+
+                <a href="#contato">
+                    Contato
+                </a>
 
             </div>
 
 
-            <div class="footer-links">
+            <div>
 
-                <h3>Contato</h3>
+                <h3>
+                    Redes sociais
+                </h3>
 
-                <p>📍 Rua dos Animais, 123</p>
-                <p>📞 (11) 99999-9999</p>
-                <p>📧 contato@patasecarinho.com</p>
+                <div class="redes">
 
-            </div>
+                    <a href="#">
+                        Instagram
+                    </a>
 
+                    <a href="#">
+                        Facebook
+                    </a>
 
-            <div class="footer-social">
-
-                <h3>Siga a gente</h3>
-
-                <div class="social-icons">
-
-                    <a href="#" aria-label="Instagram">📸</a>
-                    <a href="#" aria-label="Facebook">📘</a>
-                    <a href="#" aria-label="WhatsApp">💬</a>
-                    <a href="#" aria-label="TikTok">🎵</a>
+                    <a href="#">
+                        WhatsApp
+                    </a>
 
                 </div>
 
@@ -754,15 +700,9 @@
         </div>
 
 
-        <div class="footer-bottom">
+        <div class="copyright">
 
-            <div class="container">
-
-                <p>
-                    © 2026 Patas & Carinho — Desenvolvido com ❤️ e 🐾
-                </p>
-
-            </div>
+            © 2026 PetMania — Desenvolvido com ❤️ 🐾
 
         </div>
 
