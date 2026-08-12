@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop Amigo Fiel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">🐾 PetShop Online</div>
+            <button class="cart-btn-header" onclick="toggleCartModal()">
+                🛒 Carrinho <span class="cart-count" id="cartBadge">0</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="controls-section">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Pesquisar produtos..." oninput="renderProducts()">
+        </div>
+        <div class="categories">
+            <button class="cat-btn active" onclick="filterCategory('todos', this)">Todos</button>
+            <button class="cat-btn" onclick="filterCategory('caes', this)">Cães</button>
+            <button class="cat-btn" onclick="filterCategory('gatos', this)">Gatos</button>
+            <button class="cat-btn" onclick="filterCategory('acessorios', this)">Acessórios</button>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="products-grid" id="productsGrid"></div>
+    </main>
+
+    <div class="modal-overlay" id="cartModal">
+        <div class="cart-modal">
+            <div class="cart-header">
+                <h3>Seu Carrinho</h3>
+                <button class="close-btn" onclick="toggleCartModal()">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItemsContainer"></div>
+            <div class="cart-footer">
+                <div class="total-price">
+                    <span>Total:</span>
+                    <span id="cartTotal">R$ 0,00</span>
+                </div>
+                <button class="btn-checkout" onclick="checkout()">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+        
